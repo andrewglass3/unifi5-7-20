@@ -7,7 +7,7 @@ services:
     - "8080:8080"
     - "8443:8443"
     - "8843:8843"
-    - "3478:3478"
+    - "3478:3478/udp"
     restart: always
     volumes:
             - /mnt/docker/unifi/data:/var/lib/unifi
